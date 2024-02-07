@@ -1,55 +1,55 @@
-State,state,activity_level,activity_level_label,num_sites,date
-Utah,UT,9,Very High,33,2024-01-27
-Hawaii,HI,9,Very High,6,2024-01-27
-Minnesota,MN,10,Very High,5,2024-01-27
-Ohio,OH,7,High,72,2024-01-27
-Arkansas,AR,1,Minimal,5,2024-01-27
-Oregon,OR,4,Low,23,2024-01-27
-Texas,TX,10,Very High,16,2024-01-27
-North Dakota,ND,,No Data,0,2024-01-27
-Pennsylvania,PA,8,High,32,2024-01-27
-Connecticut,CT,9,Very High,1,2024-01-27
-Nebraska,NE,3,Low,2,2024-01-27
-Vermont,VT,10,Very High,3,2024-01-27
-Nevada,NV,5,Moderate,1,2024-01-27
-Puerto Rico,PR,,No Data,0,2024-01-27
-Washington,WA,,No Data,0,2024-01-27
-Illinois,IL,7,High,74,2024-01-27
-Oklahoma,OK,4,Low,1,2024-01-27
-Virgin Islands,VI,,No Data,0,2024-01-27
-District of Columbia,DC,,No Data,0,2024-01-27
-Delaware,DE,9,Very High,8,2024-01-27
-Alaska,AK,9,Very High,2,2024-01-27
-New Mexico,NM,,No Data,0,2024-01-27
-West Virginia,WV,9,Very High,6,2024-01-27
-Missouri,MO,8,High,37,2024-01-27
-Rhode Island,RI,8,High,8,2024-01-27
-Georgia,GA,10,Very High,21,2024-01-27
-Montana,MT,4,Low,4,2024-01-27
-Michigan,MI,7,High,47,2024-01-27
-Virginia,VA,9,Very High,35,2024-01-27
-Guam,GU,,No Data,0,2024-01-27
-North Carolina,NC,10,Very High,43,2024-01-27
-Wyoming,WY,2,Minimal,3,2024-01-27
-Kansas,KS,8,High,11,2024-01-27
-New Jersey,NJ,9,Very High,17,2024-01-27
-Maryland,MD,4,Low,3,2024-01-27
-Alabama,AL,10,Very High,6,2024-01-27
-Arizona,AZ,9,Very High,4,2024-01-27
-Iowa,IA,5,Moderate,7,2024-01-27
-Massachusetts,MA,10,Very High,5,2024-01-27
-Kentucky,KY,9,Very High,1,2024-01-27
-Louisiana,LA,,No Data,0,2024-01-27
-Mississippi,MS,,No Data,0,2024-01-27
-Tennessee,TN,10,Very High,3,2024-01-27
-New Hampshire,NH,8,High,5,2024-01-27
-Florida,FL,9,Very High,12,2024-01-27
-Indiana,IN,5,Moderate,19,2024-01-27
-Idaho,ID,9,Very High,3,2024-01-27
-South Carolina,SC,9,Very High,5,2024-01-27
-South Dakota,SD,6,Moderate,1,2024-01-27
-California,CA,9,Very High,67,2024-01-27
-New York,NY,8,High,95,2024-01-27
-Wisconsin,WI,9,Very High,29,2024-01-27
-Colorado,CO,5,Moderate,47,2024-01-27
-Maine,ME,8,High,25,2024-01-27
+State,state,activity_level,activity_level_label,num_sites,date,state_latitude,state_longitude,cdc_region,fips,Region__colour,id
+Utah,UT,9,Very High,33,2024-01-27,39.3055,-111.6703,West,49,#D2691E,1
+Hawaii,HI,9,Very High,6,2024-01-27,20.2927,-156.3737,West,15,#008080,2
+Minnesota,MN,10,Very High,5,2024-01-27,46.2807,-94.3053,Midwest,27,#FA8072,3
+Ohio,OH,7,High,72,2024-01-27,40.2862,-82.7937,Midwest,39,#9400D3,4
+Arkansas,AR,1,Minimal,5,2024-01-27,34.8938,-92.4426,South,5,#FFFF00,5
+Oregon,OR,4,Low,23,2024-01-27,43.9336,-120.5583,West,41,#8A2BE2,6
+Texas,TX,10,Very High,16,2024-01-27,31.4757,-99.3312,South,48,#228B22,7
+North Dakota,ND,,No Data,0,2024-01-27,47.4501,-100.4659,Midwest,38,#4682B4,8
+Pennsylvania,PA,8,High,32,2024-01-27,40.8781,-77.7996,Northeast,42,#CD5C5C,9
+Connecticut,CT,9,Very High,1,2024-01-27,41.6219,-72.7273,Northeast,9,#800000,10
+Nebraska,NE,3,Low,2,2024-01-27,41.5378,-99.7951,Midwest,31,#ADFF2F,11
+Vermont,VT,10,Very High,3,2024-01-27,44.0687,-72.6658,Northeast,50,#6495ED,12
+Nevada,NV,5,Moderate,1,2024-01-27,39.3289,-116.6312,West,32,#7FFF00,13
+Puerto Rico,PR,,No Data,0,2024-01-27,,,,,,14
+Washington,WA,,No Data,0,2024-01-27,47.3826,-120.4472,West,53,#8B4513,15
+Illinois,IL,7,High,74,2024-01-27,40.0417,-89.1965,Midwest,17,#A52A2A,16
+Oklahoma,OK,4,Low,1,2024-01-27,35.5889,-97.4943,South,40,#00FA9A,17
+Virgin Islands,VI,,No Data,0,2024-01-27,,,,,,18
+District of Columbia,DC,,No Data,0,2024-01-27,38.9101,-77.0147,South,11,#000080,19
+Delaware,DE,9,Very High,8,2024-01-27,38.9896,-75.505,Northeast,10,#008000,20
+Alaska,AK,9,Very High,2,2024-01-27,64.0685,-152.2782,West,2,#00FF00,21
+New Mexico,NM,,No Data,0,2024-01-27,34.4071,-106.1126,West,35,#DDA0DD,22
+West Virginia,WV,9,Very High,6,2024-01-27,38.6409,-80.6227,South,54,#556B2F,23
+Missouri,MO,8,High,37,2024-01-27,38.3566,-92.458,Midwest,29,#FF6347,24
+Rhode Island,RI,8,High,8,2024-01-27,41.6762,-71.5562,Northeast,44,#48D1CC,25
+Georgia,GA,10,Very High,21,2024-01-27,32.6415,-83.4426,South,13,#800080,26
+Montana,MT,4,Low,4,2024-01-27,47.0527,-109.6333,West,30,#BA55D3,27
+Michigan,MI,7,High,47,2024-01-27,44.3467,-85.4102,Midwest,26,#2F4F4F,28
+Virginia,VA,9,Very High,35,2024-01-27,37.5215,-78.8537,South,51,#696969,29
+Guam,GU,,No Data,0,2024-01-27,,,,,,30
+North Carolina,NC,10,Very High,43,2024-01-27,35.5557,-79.3877,South,37,#FF8C00,31
+Wyoming,WY,2,Minimal,3,2024-01-27,42.9957,-107.5512,West,56,#FFD700,32
+Kansas,KS,8,High,11,2024-01-27,38.4937,-98.3804,Midwest,20,#00CED1,33
+New Jersey,NJ,9,Very High,17,2024-01-27,40.1907,-74.6728,Northeast,34,#20B2AA,34
+Maryland,MD,4,Low,3,2024-01-27,39.055,-76.7909,South,24,#40E0D0,35
+Alabama,AL,10,Very High,6,2024-01-27,32.7794,-86.8287,South,1,#FF0000,36
+Arizona,AZ,9,Very High,4,2024-01-27,34.2744,-111.6602,West,4,#0000FF,37
+Iowa,IA,5,Moderate,7,2024-01-27,42.0751,-93.496,Midwest,19,#DC143C,38
+Massachusetts,MA,10,Very High,5,2024-01-27,42.2596,-71.8083,Northeast,25,#9370DB,39
+Kentucky,KY,9,Very High,1,2024-01-27,37.5347,-85.3021,South,21,#8B008B,40
+Louisiana,LA,,No Data,0,2024-01-27,31.0689,-91.9968,South,22,#32CD32,41
+Mississippi,MS,,No Data,0,2024-01-27,32.7364,-89.6678,South,28,#66CDAA,42
+Tennessee,TN,10,Very High,3,2024-01-27,35.858,-86.3505,South,47,#7B68EE,43
+New Hampshire,NH,8,High,5,2024-01-27,43.6805,-71.5811,Northeast,33,#FF4500,44
+Florida,FL,9,Very High,12,2024-01-27,28.6305,-82.449700000000007,South,12,#808000,45
+Indiana,IN,5,Moderate,19,2024-01-27,39.8942,-86.2816,Midwest,18,#008B8B,46
+Idaho,ID,9,Very High,3,2024-01-27,44.3509,-114.613,West,16,#FFA500,47
+South Carolina,SC,9,Very High,5,2024-01-27,33.9169,-80.8964,South,45,#4B0082,48
+South Dakota,SD,6,Moderate,1,2024-01-27,44.4443,-100.2263,Midwest,46,#FF1493,49
+California,CA,9,Very High,67,2024-01-27,37.1841,-119.4696,West,6,#FF00FF,50
+New York,NY,8,High,95,2024-01-27,42.9538,-75.5268,Northeast,36,#B0C4DE,51
+Wisconsin,WI,9,Very High,29,2024-01-27,44.6243,-89.9941,Midwest,55,#20B2AA,52
+Colorado,CO,5,Moderate,47,2024-01-27,38.9972,-105.5478,West,8,#00FFFF,53
+Maine,ME,8,High,25,2024-01-27,45.3695,-69.2428,Northeast,23,#FFD700,54
