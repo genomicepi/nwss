@@ -46,6 +46,9 @@ state_levels <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDR
             mutate(activity_level = as.numeric(activity_level)) %>%
             rename(State = state_name)
             
+map_dataset <- left_join(state_levels, states_regions, by="State")%>%
+  mutate(id = row_number())
+
 variants_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSVariantBarChart.json") %>%
   mutate_at(vars(-week_end), as.numeric) %>%
   mutate(date = as.Date(week_end)) %>%
@@ -73,3 +76,7 @@ combined_national_regional_state <- full_join(national_data, state_level_data, b
 
 #write the file with the national and state level data
 write_csv(combined_national_regional_state, "nwss_combined_file.csv", na = "")
+
+#Write the file with the current state levels for the map
+write_csv(map_dataset, "current_state_levels.csv", na = "")
+
