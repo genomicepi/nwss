@@ -71,7 +71,7 @@ national_data <- full_join(variants_long, regional_levels_long, by = c("date", "
   left_join(regional_colors, by = "Region")
 
 combined_national_regional_state <- full_join(national_data, state_level_data, by = c("date", "Region", "regional_levels", "cdc_region", "geographic_level", "Region__colour")) %>%
-  filter(!(Region %in% c("U.S. Virgin Islands", "Puerto Rico", "American Samoa", "Guam")))%>%
+  filter(!(Region %in% c("U.S. Virgin Islands", "Puerto Rico", "American Samoa", "Guam", "United States")))%>%
   mutate(id = row_number(), data_source = "NWSS")
 
 #write the file with the national and state level data
