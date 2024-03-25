@@ -1,55 +1,55 @@
 State,state,activity_level,activity_level_label,num_sites,date,state_latitude,state_longitude,cdc_region,fips,Region__colour,id
-Utah,UT,6,Moderate,2,2024-03-09,39.3055,-111.6703,West,49,#D2691E,1
-Hawaii,HI,3,Low,6,2024-03-09,20.2927,-156.3737,West,15,#008080,2
-Minnesota,MN,7,High,30,2024-03-09,46.2807,-94.3053,Midwest,27,#FA8072,3
-Ohio,OH,4,Low,70,2024-03-09,40.2862,-82.7937,Midwest,39,#9400D3,4
-Arkansas,AR,8,High,7,2024-03-09,34.8938,-92.4426,South,5,#FFFF00,5
-Oregon,OR,2,Minimal,24,2024-03-09,43.9336,-120.5583,West,41,#8A2BE2,6
-Texas,TX,5,Moderate,18,2024-03-09,31.4757,-99.3312,South,48,#228B22,7
-North Dakota,ND,,No Data,0,2024-03-09,47.4501,-100.4659,Midwest,38,#4682B4,8
-Pennsylvania,PA,6,Moderate,31,2024-03-09,40.8781,-77.7996,Northeast,42,#CD5C5C,9
-Connecticut,CT,1,Minimal,7,2024-03-09,41.6219,-72.7273,Northeast,9,#800000,10
-Vermont,VT,5,Moderate,3,2024-03-09,44.0687,-72.6658,Northeast,50,#6495ED,11
-Nebraska,NE,5,Moderate,16,2024-03-09,41.5378,-99.7951,Midwest,31,#ADFF2F,12
-Nevada,NV,1,Minimal,2,2024-03-09,39.3289,-116.6312,West,32,#7FFF00,13
-Puerto Rico,PR,,No Data,0,2024-03-09,,,,,,14
-Washington,WA,1,Minimal,27,2024-03-09,47.3826,-120.4472,West,53,#8B4513,15
-Illinois,IL,7,High,73,2024-03-09,40.0417,-89.1965,Midwest,17,#A52A2A,16
-Oklahoma,OK,5,Moderate,1,2024-03-09,35.5889,-97.4943,South,40,#00FA9A,17
-Virgin Islands,VI,,No Data,0,2024-03-09,,,,,,18
-District of Columbia,DC,3,Low,1,2024-03-09,38.9101,-77.0147,South,11,#000080,19
-Delaware,DE,6,Moderate,8,2024-03-09,38.9896,-75.505,Northeast,10,#008000,20
-Alaska,AK,2,Minimal,3,2024-03-09,64.0685,-152.2782,West,2,#00FF00,21
-New Mexico,NM,3,Low,1,2024-03-09,34.4071,-106.1126,West,35,#DDA0DD,22
-West Virginia,WV,3,Low,17,2024-03-09,38.6409,-80.6227,South,54,#556B2F,23
-Missouri,MO,8,High,42,2024-03-09,38.3566,-92.458,Midwest,29,#FF6347,24
-Rhode Island,RI,1,Minimal,8,2024-03-09,41.6762,-71.5562,Northeast,44,#48D1CC,25
-Georgia,GA,6,Moderate,17,2024-03-09,32.6415,-83.4426,South,13,#800080,26
-Montana,MT,4,Low,5,2024-03-09,47.0527,-109.6333,West,30,#BA55D3,27
-Michigan,MI,4,Low,52,2024-03-09,44.3467,-85.4102,Midwest,26,#2F4F4F,28
-Virginia,VA,7,High,35,2024-03-09,37.5215,-78.8537,South,51,#696969,29
-Guam,GU,,No Data,0,2024-03-09,,,,,,30
-North Carolina,NC,8,High,42,2024-03-09,35.5557,-79.3877,South,37,#FF8C00,31
-Wyoming,WY,2,Minimal,2,2024-03-09,42.9957,-107.5512,West,56,#FFD700,32
-Kansas,KS,5,Moderate,12,2024-03-09,38.4937,-98.3804,Midwest,20,#00CED1,33
-New Jersey,NJ,4,Low,20,2024-03-09,40.1907,-74.6728,Northeast,34,#20B2AA,34
-Maryland,MD,4,Low,3,2024-03-09,39.055,-76.7909,South,24,#40E0D0,35
-Alabama,AL,8,High,7,2024-03-09,32.7794,-86.8287,South,1,#FF0000,36
-Arizona,AZ,2,Minimal,9,2024-03-09,34.2744,-111.6602,West,4,#0000FF,37
-Iowa,IA,5,Moderate,7,2024-03-09,42.0751,-93.496,Midwest,19,#DC143C,38
-Massachusetts,MA,3,Low,6,2024-03-09,42.2596,-71.8083,Northeast,25,#9370DB,39
-Kentucky,KY,8,High,1,2024-03-09,37.5347,-85.3021,South,21,#8B008B,40
-Louisiana,LA,3,Low,2,2024-03-09,31.0689,-91.9968,South,22,#32CD32,41
-Mississippi,MS,,No Data,0,2024-03-09,32.7364,-89.6678,South,28,#66CDAA,42
-Tennessee,TN,6,Moderate,7,2024-03-09,35.858,-86.3505,South,47,#7B68EE,43
-New Hampshire,NH,5,Moderate,14,2024-03-09,43.6805,-71.5811,Northeast,33,#FF4500,44
-Florida,FL,4,Low,16,2024-03-09,28.6305,-82.449700000000007,South,12,#808000,45
-Indiana,IN,4,Low,21,2024-03-09,39.8942,-86.2816,Midwest,18,#008B8B,46
-Idaho,ID,5,Moderate,7,2024-03-09,44.3509,-114.613,West,16,#FFA500,47
-South Carolina,SC,5,Moderate,5,2024-03-09,33.9169,-80.8964,South,45,#4B0082,48
-South Dakota,SD,2,Minimal,2,2024-03-09,44.4443,-100.2263,Midwest,46,#FF1493,49
-California,CA,4,Low,78,2024-03-09,37.1841,-119.4696,West,6,#FF00FF,50
-New York,NY,2,Minimal,119,2024-03-09,42.9538,-75.5268,Northeast,36,#B0C4DE,51
-Wisconsin,WI,5,Moderate,40,2024-03-09,44.6243,-89.9941,Midwest,55,#20B2AA,52
-Maine,ME,3,Low,19,2024-03-09,45.3695,-69.2428,Northeast,23,#FFD700,53
-Colorado,CO,4,Low,53,2024-03-09,38.9972,-105.5478,West,8,#00FFFF,54
+Utah,UT,8,High,2,2024-03-16,39.3055,-111.6703,West,49,#D2691E,1
+Hawaii,HI,3,Low,6,2024-03-16,20.2927,-156.3737,West,15,#008080,2
+Minnesota,MN,5,Moderate,32,2024-03-16,46.2807,-94.3053,Midwest,27,#FA8072,3
+Ohio,OH,4,Low,2,2024-03-16,40.2862,-82.7937,Midwest,39,#9400D3,4
+Arkansas,AR,7,High,7,2024-03-16,34.8938,-92.4426,South,5,#FFFF00,5
+Oregon,OR,2,Minimal,22,2024-03-16,43.9336,-120.5583,West,41,#8A2BE2,6
+Texas,TX,4,Low,19,2024-03-16,31.4757,-99.3312,South,48,#228B22,7
+North Dakota,ND,,No Data,0,2024-03-16,47.4501,-100.4659,Midwest,38,#4682B4,8
+Pennsylvania,PA,5,Moderate,31,2024-03-16,40.8781,-77.7996,Northeast,42,#CD5C5C,9
+Connecticut,CT,1,Minimal,2,2024-03-16,41.6219,-72.7273,Northeast,9,#800000,10
+Vermont,VT,3,Low,3,2024-03-16,44.0687,-72.6658,Northeast,50,#6495ED,11
+Nebraska,NE,3,Low,16,2024-03-16,41.5378,-99.7951,Midwest,31,#ADFF2F,12
+Nevada,NV,2,Minimal,2,2024-03-16,39.3289,-116.6312,West,32,#7FFF00,13
+Puerto Rico,PR,,No Data,0,2024-03-16,,,,,,14
+Washington,WA,1,Minimal,28,2024-03-16,47.3826,-120.4472,West,53,#8B4513,15
+Illinois,IL,5,Moderate,72,2024-03-16,40.0417,-89.1965,Midwest,17,#A52A2A,16
+Oklahoma,OK,4,Low,1,2024-03-16,35.5889,-97.4943,South,40,#00FA9A,17
+Virgin Islands,VI,,No Data,0,2024-03-16,,,,,,18
+District of Columbia,DC,1,Minimal,1,2024-03-16,38.9101,-77.0147,South,11,#000080,19
+Delaware,DE,5,Moderate,8,2024-03-16,38.9896,-75.505,Northeast,10,#008000,20
+Alaska,AK,1,Minimal,3,2024-03-16,64.0685,-152.2782,West,2,#00FF00,21
+New Mexico,NM,5,Moderate,1,2024-03-16,34.4071,-106.1126,West,35,#DDA0DD,22
+West Virginia,WV,2,Minimal,1,2024-03-16,38.6409,-80.6227,South,54,#556B2F,23
+Missouri,MO,,No Data,0,2024-03-16,38.3566,-92.458,Midwest,29,#FF6347,24
+Rhode Island,RI,2,Minimal,8,2024-03-16,41.6762,-71.5562,Northeast,44,#48D1CC,25
+Georgia,GA,5,Moderate,19,2024-03-16,32.6415,-83.4426,South,13,#800080,26
+Montana,MT,5,Moderate,5,2024-03-16,47.0527,-109.6333,West,30,#BA55D3,27
+Michigan,MI,3,Low,37,2024-03-16,44.3467,-85.4102,Midwest,26,#2F4F4F,28
+Virginia,VA,5,Moderate,35,2024-03-16,37.5215,-78.8537,South,51,#696969,29
+Guam,GU,,No Data,0,2024-03-16,,,,,,30
+North Carolina,NC,5,Moderate,46,2024-03-16,35.5557,-79.3877,South,37,#FF8C00,31
+Wyoming,WY,1,Minimal,2,2024-03-16,42.9957,-107.5512,West,56,#FFD700,32
+Kansas,KS,5,Moderate,7,2024-03-16,38.4937,-98.3804,Midwest,20,#00CED1,33
+New Jersey,NJ,8,High,6,2024-03-16,40.1907,-74.6728,Northeast,34,#20B2AA,34
+Maryland,MD,3,Low,3,2024-03-16,39.055,-76.7909,South,24,#40E0D0,35
+Alabama,AL,5,Moderate,7,2024-03-16,32.7794,-86.8287,South,1,#FF0000,36
+Arizona,AZ,1,Minimal,2,2024-03-16,34.2744,-111.6602,West,4,#0000FF,37
+Iowa,IA,4,Low,7,2024-03-16,42.0751,-93.496,Midwest,19,#DC143C,38
+Massachusetts,MA,1,Minimal,6,2024-03-16,42.2596,-71.8083,Northeast,25,#9370DB,39
+Kentucky,KY,6,Moderate,1,2024-03-16,37.5347,-85.3021,South,21,#8B008B,40
+Louisiana,LA,4,Low,5,2024-03-16,31.0689,-91.9968,South,22,#32CD32,41
+Mississippi,MS,,No Data,0,2024-03-16,32.7364,-89.6678,South,28,#66CDAA,42
+Tennessee,TN,5,Moderate,6,2024-03-16,35.858,-86.3505,South,47,#7B68EE,43
+New Hampshire,NH,4,Low,11,2024-03-16,43.6805,-71.5811,Northeast,33,#FF4500,44
+Florida,FL,3,Low,12,2024-03-16,28.6305,-82.449700000000007,South,12,#808000,45
+Indiana,IN,3,Low,21,2024-03-16,39.8942,-86.2816,Midwest,18,#008B8B,46
+Idaho,ID,3,Low,5,2024-03-16,44.3509,-114.613,West,16,#FFA500,47
+South Carolina,SC,3,Low,8,2024-03-16,33.9169,-80.8964,South,45,#4B0082,48
+South Dakota,SD,2,Minimal,2,2024-03-16,44.4443,-100.2263,Midwest,46,#FF1493,49
+California,CA,4,Low,65,2024-03-16,37.1841,-119.4696,West,6,#FF00FF,50
+New York,NY,3,Low,91,2024-03-16,42.9538,-75.5268,Northeast,36,#B0C4DE,51
+Wisconsin,WI,4,Low,32,2024-03-16,44.6243,-89.9941,Midwest,55,#20B2AA,52
+Maine,ME,2,Minimal,15,2024-03-16,45.3695,-69.2428,Northeast,23,#FFD700,53
+Colorado,CO,5,Moderate,2,2024-03-16,38.9972,-105.5478,West,8,#00FFFF,54
