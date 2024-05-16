@@ -22,7 +22,8 @@ lineages <- read_csv("https://raw.githubusercontent.com/northwest-pgcoe/lineage_
   mutate(hex_code = substr(hex_code, 1, 7))
 
 #Bring all the NWSS datasets
-forecasts <- read_csv("https://www.cdc.gov/coronavirus/2019-ncov/downloads/science/forecasting/hospitalizations/february2024/2024-02-05_forecasts_hosp_state.csv")%>%
+#Need to update this one to make it generic so it pulls the most recent data since
+forecasts <- read_csv("https://www.cdc.gov/coronavirus/2019-ncov/downloads/science/forecasting/hospitalizations/april2024/2024-04-29_forecasts_hosp_state.csv")%>%
   filter(model == "cfa-wwrenewal" | data_type == "observed data") %>%
   filter(location_name != "National")%>%
   select(-starts_with("quantile"))
