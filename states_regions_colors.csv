@@ -1,52 +1,52 @@
-State,state_latitude,state_longitude,cdc_region,fips,Region__colour
-Alabama,32.7794,-86.8287,South,1,#FF0000
-Alaska,64.0685,-152.2782,West,2,#00FF00
-Arizona,34.2744,-111.6602,West,4,#0000FF
-Arkansas,34.8938,-92.4426,South,5,#FFFF00
-California,37.1841,-119.4696,West,6,#FF00FF
-Colorado,38.9972,-105.5478,West,8,#00FFFF
-Connecticut,41.6219,-72.7273,Northeast,9,#800000
-Delaware,38.9896,-75.505,Northeast,10,#008000
-District of Columbia,38.9101,-77.0147,South,11,#000080
-Florida,28.6305,-82.449700000000007,South,12,#808000
-Georgia,32.6415,-83.4426,South,13,#800080
-Hawaii,20.2927,-156.3737,West,15,#008080
-Idaho,44.3509,-114.613,West,16,#FFA500
-Illinois,40.0417,-89.1965,Midwest,17,#A52A2A
-Indiana,39.8942,-86.2816,Midwest,18,#008B8B
-Iowa,42.0751,-93.496,Midwest,19,#DC143C
-Kansas,38.4937,-98.3804,Midwest,20,#00CED1
-Kentucky,37.5347,-85.3021,South,21,#8B008B
-Louisiana,31.0689,-91.9968,South,22,#32CD32
-Maine,45.3695,-69.2428,Northeast,23,#FFD700
-Maryland,39.055,-76.7909,South,24,#40E0D0
-Massachusetts,42.2596,-71.8083,Northeast,25,#9370DB
-Michigan,44.3467,-85.4102,Midwest,26,#2F4F4F
-Minnesota,46.2807,-94.3053,Midwest,27,#FA8072
-Mississippi,32.7364,-89.6678,South,28,#66CDAA
-Missouri,38.3566,-92.458,Midwest,29,#FF6347
-Montana,47.0527,-109.6333,West,30,#BA55D3
-Nebraska,41.5378,-99.7951,Midwest,31,#ADFF2F
-Nevada,39.3289,-116.6312,West,32,#7FFF00
-New Hampshire,43.6805,-71.5811,Northeast,33,#FF4500
-New Jersey,40.1907,-74.6728,Northeast,34,#20B2AA
-New Mexico,34.4071,-106.1126,West,35,#DDA0DD
-New York,42.9538,-75.5268,Northeast,36,#B0C4DE
-North Carolina,35.5557,-79.3877,South,37,#FF8C00
-North Dakota,47.4501,-100.4659,Midwest,38,#4682B4
-Ohio,40.2862,-82.7937,Midwest,39,#9400D3
-Oklahoma,35.5889,-97.4943,South,40,#00FA9A
-Oregon,43.9336,-120.5583,West,41,#8A2BE2
-Pennsylvania,40.8781,-77.7996,Northeast,42,#CD5C5C
-Rhode Island,41.6762,-71.5562,Northeast,44,#48D1CC
-South Carolina,33.9169,-80.8964,South,45,#4B0082
-South Dakota,44.4443,-100.2263,Midwest,46,#FF1493
-Tennessee,35.858,-86.3505,South,47,#7B68EE
-Texas,31.4757,-99.3312,South,48,#228B22
-Utah,39.3055,-111.6703,West,49,#D2691E
-Vermont,44.0687,-72.6658,Northeast,50,#6495ED
-Virginia,37.5215,-78.8537,South,51,#696969
-Washington,47.3826,-120.4472,West,53,#8B4513
-West Virginia,38.6409,-80.6227,South,54,#556B2F
-Wisconsin,44.6243,-89.9941,Midwest,55,#20B2AA
-Wyoming,42.9957,-107.5512,West,56,#FFD700
+State,state_abbr,state_latitude,state_longitude,cdc_region,fips,cdc_region__colour
+Alabama,AL,32.7794,-86.8287,South,1,#FF0000
+Alaska,AK,64.0685,-152.2782,West,2,#00FF00
+Arizona,AZ,34.2744,-111.6602,West,4,#0000FF
+Arkansas,AR,34.8938,-92.4426,South,5,#FFFF00
+California,CA,37.1841,-119.4696,West,6,#FF00FF
+Colorado,CO,38.9972,-105.5478,West,8,#00FFFF
+Connecticut,CT,41.6219,-72.7273,Northeast,9,#800000
+Delaware,DE,38.9896,-75.505,Northeast,10,#008000
+District of Columbia,DC,38.9101,-77.0147,South,11,#000080
+Florida,FL,28.6305,-82.4497,South,12,#808000
+Georgia,GA,32.6415,-83.4426,South,13,#800080
+Hawaii,HI,20.2927,-156.3737,West,15,#008080
+Idaho,ID,44.3509,-114.613,West,16,#FFA500
+Illinois,IL,40.0417,-89.1965,Midwest,17,#A52A2A
+Indiana,IN,39.8942,-86.2816,Midwest,18,#008B8B
+Iowa,IA,42.0751,-93.496,Midwest,19,#DC143C
+Kansas,KS,38.4937,-98.3804,Midwest,20,#00CED1
+Kentucky,KY,37.5347,-85.3021,South,21,#8B008B
+Louisiana,LA,31.0689,-91.9968,South,22,#32CD32
+Maine,ME,45.3695,-69.2428,Northeast,23,#FFD700
+Maryland,MD,39.055,-76.7909,South,24,#40E0D0
+Massachusetts,MA,42.2596,-71.8083,Northeast,25,#9370DB
+Michigan,MI,44.3467,-85.4102,Midwest,26,#2F4F4F
+Minnesota,MN,46.2807,-94.3053,Midwest,27,#FA8072
+Mississippi,MS,32.7364,-89.6678,South,28,#66CDAA
+Missouri,MO,38.3566,-92.458,Midwest,29,#FF6347
+Montana,MT,47.0527,-109.6333,West,30,#BA55D3
+Nebraska,NE,41.5378,-99.7951,Midwest,31,#ADFF2F
+Nevada,NV,39.3289,-116.6312,West,32,#7FFF00
+New Hampshire,NH,43.6805,-71.5811,Northeast,33,#FF4500
+New Jersey,NJ,40.1907,-74.6728,Northeast,34,#20B2AA
+New Mexico,NM,34.4071,-106.1126,West,35,#DDA0DD
+New York,NY,42.9538,-75.5268,Northeast,36,#B0C4DE
+North Carolina,NC,35.5557,-79.3877,South,37,#FF8C00
+North Dakota,ND,47.4501,-100.4659,Midwest,38,#4682B4
+Ohio,OH,40.2862,-82.7937,Midwest,39,#9400D3
+Oklahoma,OK,35.5889,-97.4943,South,40,#00FA9A
+Oregon,OR,43.9336,-120.5583,West,41,#8A2BE2
+Pennsylvania,PA,40.8781,-77.7996,Northeast,42,#CD5C5C
+Rhode Island,RI,41.6762,-71.5562,Northeast,44,#48D1CC
+South Carolina,SC,33.9169,-80.8964,South,45,#4B0082
+South Dakota,SD,44.4443,-100.2263,Midwest,46,#FF1493
+Tennessee,TN,35.858,-86.3505,South,47,#7B68EE
+Texas,TX,31.4757,-99.3312,South,48,#228B22
+Utah,UT,39.3055,-111.6703,West,49,#D2691E
+Vermont,VT,44.0687,-72.6658,Northeast,50,#6495ED
+Virginia,VA,37.5215,-78.8537,South,51,#696969
+Washington,WA,47.3826,-120.4472,West,53,#8B4513
+West Virginia,WV,38.6409,-80.6227,South,54,#556B2F
+Wisconsin,WI,44.6243,-89.9941,Midwest,55,#20B2AA
+Wyoming,WY,42.9957,-107.5512,West,56,#FFD700
