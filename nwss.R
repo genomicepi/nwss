@@ -23,10 +23,10 @@ lineages <- read_csv("https://raw.githubusercontent.com/northwest-pgcoe/lineage_
 
 #Bring all the NWSS datasets
 #Need to update this one to make it generic so it pulls the most recent data since
-forecasts <- read_csv("https://www.cdc.gov/coronavirus/2019-ncov/downloads/science/forecasting/hospitalizations/april2024/2024-04-29_forecasts_hosp_state.csv")%>%
-  filter(model == "cfa-wwrenewal" | data_type == "observed data") %>%
-  filter(location_name != "National")%>%
-  select(-starts_with("quantile"))
+# forecasts <- read_csv("https://www.cdc.gov/coronavirus/2019-ncov/downloads/science/forecasting/hospitalizations/april2024/2024-04-29_forecasts_hosp_state.csv")%>%
+#   filter(model == "cfa-wwrenewal" | data_type == "observed data") %>%
+#   filter(location_name != "National")%>%
+#   select(-starts_with("quantile"))
   
 regional_levels_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSRegionalLevel.json") %>%
             mutate_at(vars(Midwest, National, Northeast, South, West), as.numeric) %>%
@@ -36,16 +36,16 @@ regional_levels_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCE
             pivot_longer(cols = -date, names_to = "Region", values_to = "regional_levels")
   
 state_trends <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateLevel.json") %>%
-            mutate_at(vars(value, national_value,region_value), as.numeric) %>%
+            mutate_at(vars(state_med_conc,national_value,region_value), as.numeric) %>%
             filter(date_period == "All Results")%>%
             mutate(date = as.Date(date)) %>%
-            select(date, State, value) %>%
-            rename(Region = "State", regional_levels = "value" )
+            select(date, State, state_med_conc) %>%
+            rename(Region = "State", regional_levels = "state_med_conc")
 
 state_levels <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateMap.json")%>%
             mutate(date = max(regional_levels_long$date)) %>%
-            mutate(activity_level = as.numeric(activity_level)) %>%
-            rename(State = state_name)
+            mutate(activity_level = as.numeric(activity_level)) #%>%
+            #rename(State = state_name)
             
 map_dataset <- left_join(state_levels, states_regions, by="State")%>%
   mutate(id = row_number())
@@ -63,7 +63,7 @@ variants_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DID
   select(date, Variant, share, Region, Variant__colour = hex_code, variant_present)
 
 state_level_data <- left_join(state_trends, state_levels, by = c("date","Region" = "State"))%>%
-  full_join(forecasts, by = c("date" = "observation_or_target_date", "Region" = "location_name"))%>%
+#  full_join(forecasts, by = c("date" = "observation_or_target_date", "Region" = "location_name"))%>%
   left_join(states_regions, by = c("Region" = "State")) %>%
   mutate(geographic_level = "State-Territory")
 
