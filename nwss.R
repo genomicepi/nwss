@@ -17,7 +17,7 @@ regional_colors <- tribble(
   "West", "#66a61e")
 
 #Bring in the lineage colors from the WADOH molecular epidemiology team
-lineages <- read_csv("https://raw.githubusercontent.com/northwest-pgcoe/lineage_classifications/main/lineage_classifications.csv")%>%
+lineages <- read_csv("https://raw.githubusercontent.com/NW-PaGe/lineage_classifications/refs/heads/main/data/lineage_classifications.csv")%>%
   select(Variant = lineage_extracted, hex_code, variant_group = doh_variant_name) %>%
   mutate(hex_code = substr(hex_code, 1, 7))
 
