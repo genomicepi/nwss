@@ -29,23 +29,23 @@ lineages <- read_csv("https://raw.githubusercontent.com/NW-PaGe/lineage_classifi
 #   select(-starts_with("quantile"))
   
 regional_levels_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSRegionalLevel.json") %>%
-            mutate_at(vars(Midwest, National, Northeast, South, West), as.numeric) %>%
-            mutate(date = as.Date(date)) %>%
-            filter(date_period == "All Results") %>%
-            select(-date_period) %>%
+            mutate_at(vars(Midwest_WVAL, National_WVAL, Northeast_WVAL, South_WVAL, West_WVAL), as.numeric) %>%
+            mutate(date = as.Date(Week_Ending_Date)) %>%
+            filter(Data_Collection_Period == "All Results") %>%
+            select(-Data_Collection_Period, -Week_Ending_Date) %>%
             pivot_longer(cols = -date, names_to = "Region", values_to = "regional_levels")
   
 state_trends <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateLevel.json") %>%
-            mutate_at(vars(state_med_conc,national_value,region_value), as.numeric) %>%
-            filter(date_period == "All Results")%>%
-            mutate(date = as.Date(date)) %>%
-            select(date, State, state_med_conc) %>%
-            rename(Region = "State", regional_levels = "state_med_conc")
+            mutate_at(vars("State/Territory_WVAL",National_WVAL,Regional_WVAL), as.numeric) %>%
+            filter(Data_Collection_Period == "All Results")%>%
+            mutate(date = as.Date(Week_Ending_Date)) %>%
+            select(date, "State/Territory", "State/Territory_WVAL") %>%
+            rename(Region = "State/Territory", regional_levels = "State/Territory_WVAL")
 
 state_levels <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateMap.json")%>%
             mutate(date = max(regional_levels_long$date)) %>%
-            mutate(activity_level = as.numeric(activity_level)) #%>%
-            #rename(State = state_name)
+            mutate(activity_level = as.numeric(activity_level)) %>%
+            rename(State = "State/Territory")
             
 map_dataset <- left_join(state_levels, states_regions, by="State")%>%
   mutate(id = row_number())
@@ -80,4 +80,5 @@ write_csv(combined_national_regional_state, "nwss_combined_file.csv", na = "")
 
 #Write the file with the current state levels for the map
 write_csv(map_dataset, "current_state_levels.csv", na = "")
+
 
