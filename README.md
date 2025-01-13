@@ -8,4 +8,3 @@
 - Forecast: https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/hospitalizations-forecasts.html
 - Influenza: https://www.cdc.gov/nwss/wastewater-surveillance/Flu-A-data.html
 
-### To see a dashboard created from the data see: https://microreact.org/project/nwss-data
