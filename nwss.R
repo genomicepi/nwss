@@ -21,20 +21,14 @@ lineages <- read_csv("https://raw.githubusercontent.com/NW-PaGe/lineage_classifi
   select(Variant = lineage_extracted, hex_code, variant_group = doh_variant_name) %>%
   mutate(hex_code = substr(hex_code, 1, 7))
 
-#Bring all the NWSS datasets
-#Need to update this one to make it generic so it pulls the most recent data since
-# forecasts <- read_csv("https://www.cdc.gov/coronavirus/2019-ncov/downloads/science/forecasting/hospitalizations/april2024/2024-04-29_forecasts_hosp_state.csv")%>%
-#   filter(model == "cfa-wwrenewal" | data_type == "observed data") %>%
-#   filter(location_name != "National")%>%
-#   select(-starts_with("quantile"))
-  
 regional_levels_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSRegionalLevel.json") %>%
-            mutate_at(vars(Midwest_WVAL, National_WVAL, Northeast_WVAL, South_WVAL, West_WVAL), as.numeric) %>%
-            mutate(date = as.Date(Week_Ending_Date)) %>%
-            filter(Data_Collection_Period == "All Results") %>%
-            select(-Data_Collection_Period, -Week_Ending_Date) %>%
-            pivot_longer(cols = -date, names_to = "Region", values_to = "regional_levels")
-  
+  mutate_at(vars(Midwest_WVAL, National_WVAL, Northeast_WVAL, South_WVAL, West_WVAL), as.numeric) %>%
+  mutate(date = as.Date(Week_Ending_Date)) %>%
+  filter(Data_Collection_Period == "All Results") %>%
+  select(-Data_Collection_Period, -Week_Ending_Date) %>%
+  pivot_longer(cols = -date, names_to = "Region", values_to = "regional_levels") %>%
+  mutate(Region = str_remove(Region, "_WVAL"))
+
 state_trends <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateLevel.json") %>%
             mutate_at(vars("State/Territory_WVAL",National_WVAL,Regional_WVAL), as.numeric) %>%
             filter(Data_Collection_Period == "All Results")%>%
