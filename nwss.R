@@ -1,23 +1,28 @@
-#Bring in the CDC NWSS program's SARS-CoV-2 files, combine them, and prep for visualizing in Microreact
-
-#Load required packages
+# Load required packages
 library(jsonlite)
 library(tidyverse)
 
-#Bring in the state names, coordinates, colors
+# Determine the script's directory
+script_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+
+# Set output file paths
+output_file1 <- file.path(script_dir, "nwss_combined_file.csv")
+output_file2 <- file.path(script_dir, "current_state_levels.csv")
+
+# Bring in the state names, coordinates, colors
 states_regions <- read_csv("https://raw.githubusercontent.com/genomicepi/nwss/main/states_regions_colors.csv")
 
-#Create regional colors
+# Create regional colors
 regional_colors <- tribble(
-~Region, ~Region__colour, 
+  ~Region, ~Region__colour, 
   "National", "#1b9e77",
   "Midwest", "#d95f02",
   "South", "#7570b3", 
   "Northeast","#e7298a",
   "West", "#66a61e")
 
-#Bring in the lineage colors from the WADOH molecular epidemiology team
-lineages <- read_csv("https://raw.githubusercontent.com/NW-PaGe/lineage_classifications/refs/heads/main/data/lineage_classifications.csv")%>%
+# Bring in the lineage colors
+lineages <- read_csv("https://raw.githubusercontent.com/NW-PaGe/lineage_classifications/refs/heads/main/data/lineage_classifications.csv") %>%
   select(Variant = lineage_extracted, hex_code, variant_group = doh_variant_name) %>%
   mutate(hex_code = substr(hex_code, 1, 7))
 
@@ -30,18 +35,18 @@ regional_levels_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCE
   mutate(Region = str_remove(Region, "_WVAL"))
 
 state_trends <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateLevel.json") %>%
-            mutate_at(vars("State/Territory_WVAL",National_WVAL,Regional_WVAL), as.numeric) %>%
-            filter(Data_Collection_Period == "All Results")%>%
-            mutate(date = as.Date(Week_Ending_Date)) %>%
-            select(date, "State/Territory", "State/Territory_WVAL") %>%
-            rename(Region = "State/Territory", regional_levels = "State/Territory_WVAL")
+  mutate_at(vars("State/Territory_WVAL",National_WVAL,Regional_WVAL), as.numeric) %>%
+  filter(Data_Collection_Period == "All Results")%>%
+  mutate(date = as.Date(Week_Ending_Date)) %>%
+  select(date, "State/Territory", "State/Territory_WVAL") %>%
+  rename(Region = "State/Territory", regional_levels = "State/Territory_WVAL")
 
 state_levels <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateMap.json")%>%
-            mutate(date = max(regional_levels_long$date)) %>%
-            mutate(activity_level = as.numeric(activity_level)) %>%
-            rename(State = "State/Territory")
-            
-map_dataset <- left_join(state_levels, states_regions, by="State")%>%
+  mutate(date = max(regional_levels_long$date)) %>%
+  mutate(activity_level = as.numeric(activity_level)) %>%
+  rename(State = "State/Territory")
+
+map_dataset <- left_join(state_levels, states_regions, by="State") %>%
   mutate(id = row_number())
 
 variants_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSVariantBarChart.json") %>%
@@ -56,8 +61,7 @@ variants_long <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DID
   mutate(hex_code = substr(hex_code, 1, 7))%>%
   select(date, Variant, share, Region, Variant__colour = hex_code, variant_present)
 
-state_level_data <- left_join(state_trends, state_levels, by = c("date","Region" = "State"))%>%
-#  full_join(forecasts, by = c("date" = "observation_or_target_date", "Region" = "location_name"))%>%
+state_level_data <- left_join(state_trends, state_levels, by = c("date","Region" = "State")) %>%
   left_join(states_regions, by = c("Region" = "State")) %>%
   mutate(geographic_level = "State-Territory")
 
@@ -69,10 +73,13 @@ combined_national_regional_state <- full_join(national_data, state_level_data, b
   filter(!(Region %in% c("U.S. Virgin Islands", "Puerto Rico", "American Samoa", "Guam", "United States")))%>%
   mutate(id = row_number(), data_source = "NWSS")
 
-#write the file with the national and state level data
-write_csv(combined_national_regional_state, "nwss_combined_file.csv", na = "")
+# Write the file with the national and state-level data
+write_csv(combined_national_regional_state, output_file1, na = "")
 
-#Write the file with the current state levels for the map
-write_csv(map_dataset, "current_state_levels.csv", na = "")
+# Write the file with the current state levels for the map
+write_csv(map_dataset, output_file2, na = "")
+
+# Print confirmation message
+message("Files written to: ", script_dir)
 
 
