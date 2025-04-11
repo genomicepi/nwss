@@ -69,7 +69,7 @@ national_data <- full_join(variants_long, regional_levels_long, by = c("date", "
   mutate(cdc_region = Region, geographic_level = "Aggregated") %>%
   left_join(regional_colors, by = "Region")
 
-combined_national_regional_state <- full_join(national_data, state_level_data, by = c("date", "Region", "regional_levels", "cdc_region", "geographic_level", "Region__colour")) %>%
+combined_national_regional_state <- full_join(national_data, state_level_data, by = c("date", "Region", "regional_levels", "cdc_region", "geographic_level", "Region__colour" = "State__colour")) %>%
   filter(!(Region %in% c("U.S. Virgin Islands", "Puerto Rico", "American Samoa", "Guam", "United States")))%>%
   mutate(id = row_number(), data_source = "NWSS")
 

@@ -1,54 +1,54 @@
-State,State_Abbreviation,activity_level,WVAL_Category,Number_of_Sites,Time_Period,Coverage,date,state_abbr,state_latitude,state_longitude,cdc_region,fips,cdc_region__colour,Region__colour,id
-Alabama,AL,5,Moderate,7,"February 16, 2025 - February 22, 2025",,2025-02-22,AL,32.7794,-86.8287,South,1,#FF0000,#FF0000,1
-Alaska,AK,4,Low,4,"February 16, 2025 - February 22, 2025",,2025-02-22,AK,64.0685,-152.2782,West,2,#00FF00,#00FF00,2
-Arizona,AZ,3,Low,15,"February 16, 2025 - February 22, 2025",,2025-02-22,AZ,34.2744,-111.6602,West,4,#0000FF,#0000FF,3
-Arkansas,AR,4,Low,7,"February 16, 2025 - February 22, 2025",,2025-02-22,AR,34.8938,-92.4426,South,5,#FFFF00,#FFFF00,4
-California,CA,3,Low,61,"February 16, 2025 - February 22, 2025",,2025-02-22,CA,37.1841,-119.4696,West,6,#FF00FF,#FF00FF,5
-Colorado,CO,6,Moderate,22,"February 16, 2025 - February 22, 2025",,2025-02-22,CO,38.9972,-105.5478,West,8,#00FFFF,#00FFFF,6
-Connecticut,CT,6,Moderate,8,"February 16, 2025 - February 22, 2025",,2025-02-22,CT,41.6219,-72.7273,Northeast,9,#800000,#800000,7
-Delaware,DE,8,High,8,"February 16, 2025 - February 22, 2025",,2025-02-22,DE,38.9896,-75.505,Northeast,10,#008000,#008000,8
-District of Columbia,DC,7,High,1,"February 16, 2025 - February 22, 2025",,2025-02-22,DC,38.9101,-77.0147,South,11,#000080,#000080,9
-Florida,FL,4,Low,24,"February 16, 2025 - February 22, 2025",,2025-02-22,FL,28.6305,-82.449700000000007,South,12,#808000,#808000,10
-Georgia,GA,7,High,18,"February 16, 2025 - February 22, 2025",,2025-02-22,GA,32.6415,-83.4426,South,13,#800080,#800080,11
-Guam,GU,,No Data,0,"February 16, 2025 - February 22, 2025",,2025-02-22,,,,,,,,12
-Hawaii,HI,3,Low,9,"February 16, 2025 - February 22, 2025",,2025-02-22,HI,20.2927,-156.3737,West,15,#008080,#008080,13
-Idaho,ID,5,Moderate,5,"February 16, 2025 - February 22, 2025",,2025-02-22,ID,44.3509,-114.613,West,16,#FFA500,#FFA500,14
-Illinois,IL,5,Moderate,74,"February 16, 2025 - February 22, 2025",,2025-02-22,IL,40.0417,-89.1965,Midwest,17,#A52A2A,#A52A2A,15
-Indiana,IN,6,Moderate,28,"February 16, 2025 - February 22, 2025",,2025-02-22,IN,39.8942,-86.2816,Midwest,18,#008B8B,#008B8B,16
-Iowa,IA,8,High,9,"February 16, 2025 - February 22, 2025",,2025-02-22,IA,42.0751,-93.496,Midwest,19,#DC143C,#DC143C,17
-Kansas,KS,7,High,12,"February 16, 2025 - February 22, 2025",,2025-02-22,KS,38.4937,-98.3804,Midwest,20,#00CED1,#00CED1,18
-Kentucky,KY,8,High,15,"February 16, 2025 - February 22, 2025",,2025-02-22,KY,37.5347,-85.3021,South,21,#8B008B,#8B008B,19
-Louisiana,LA,6,Moderate,33,"February 16, 2025 - February 22, 2025",,2025-02-22,LA,31.0689,-91.9968,South,22,#32CD32,#32CD32,20
-Maine,ME,7,High,12,"February 16, 2025 - February 22, 2025",,2025-02-22,ME,45.3695,-69.2428,Northeast,23,#FFD700,#FFD700,21
-Maryland,MD,7,High,9,"February 16, 2025 - February 22, 2025",,2025-02-22,MD,39.055,-76.7909,South,24,#40E0D0,#40E0D0,22
-Massachusetts,MA,6,Moderate,7,"February 16, 2025 - February 22, 2025",,2025-02-22,MA,42.2596,-71.8083,Northeast,25,#9370DB,#9370DB,23
-Michigan,MI,7,High,7,"February 16, 2025 - February 22, 2025",Limited Coverage,2025-02-22,MI,44.3467,-85.4102,Midwest,26,#2F4F4F,#2F4F4F,24
-Minnesota,MN,7,High,29,"February 16, 2025 - February 22, 2025",,2025-02-22,MN,46.2807,-94.3053,Midwest,27,#FA8072,#FA8072,25
-Mississippi,MS,4,Low,4,"February 16, 2025 - February 22, 2025",,2025-02-22,MS,32.7364,-89.6678,South,28,#66CDAA,#66CDAA,26
-Missouri,MO,,No Data,0,"February 16, 2025 - February 22, 2025",,2025-02-22,MO,38.3566,-92.458,Midwest,29,#FF6347,#FF6347,27
-Montana,MT,4,Low,5,"February 16, 2025 - February 22, 2025",,2025-02-22,MT,47.0527,-109.6333,West,30,#BA55D3,#BA55D3,28
-Nebraska,NE,5,Moderate,2,"February 16, 2025 - February 22, 2025",,2025-02-22,NE,41.5378,-99.7951,Midwest,31,#ADFF2F,#ADFF2F,29
-Nevada,NV,4,Low,3,"February 16, 2025 - February 22, 2025",,2025-02-22,NV,39.3289,-116.6312,West,32,#7FFF00,#7FFF00,30
-New Hampshire,NH,5,Moderate,13,"February 16, 2025 - February 22, 2025",,2025-02-22,NH,43.6805,-71.5811,Northeast,33,#FF4500,#FF4500,31
-New Jersey,NJ,7,High,21,"February 16, 2025 - February 22, 2025",,2025-02-22,NJ,40.1907,-74.6728,Northeast,34,#20B2AA,#20B2AA,32
-New Mexico,NM,3,Low,5,"February 16, 2025 - February 22, 2025",,2025-02-22,NM,34.4071,-106.1126,West,35,#DDA0DD,#DDA0DD,33
-New York,NY,2,Very Low,83,"February 16, 2025 - February 22, 2025",,2025-02-22,NY,42.9538,-75.5268,Northeast,36,#B0C4DE,#B0C4DE,34
-North Carolina,NC,7,High,7,"February 16, 2025 - February 22, 2025",Limited Coverage,2025-02-22,NC,35.5557,-79.3877,South,37,#FF8C00,#FF8C00,35
-North Dakota,ND,,No Data,0,"February 16, 2025 - February 22, 2025",,2025-02-22,ND,47.4501,-100.4659,Midwest,38,#4682B4,#4682B4,36
-Ohio,OH,6,Moderate,67,"February 16, 2025 - February 22, 2025",,2025-02-22,OH,40.2862,-82.7937,Midwest,39,#9400D3,#9400D3,37
-Oklahoma,OK,7,High,1,"February 16, 2025 - February 22, 2025",Limited Coverage,2025-02-22,OK,35.5889,-97.4943,South,40,#00FA9A,#00FA9A,38
-Oregon,OR,5,Moderate,20,"February 16, 2025 - February 22, 2025",,2025-02-22,OR,43.9336,-120.5583,West,41,#8A2BE2,#8A2BE2,39
-Pennsylvania,PA,4,Low,30,"February 16, 2025 - February 22, 2025",,2025-02-22,PA,40.8781,-77.7996,Northeast,42,#CD5C5C,#CD5C5C,40
-Rhode Island,RI,4,Low,10,"February 16, 2025 - February 22, 2025",,2025-02-22,RI,41.6762,-71.5562,Northeast,44,#48D1CC,#48D1CC,41
-South Carolina,SC,8,High,21,"February 16, 2025 - February 22, 2025",,2025-02-22,SC,33.9169,-80.8964,South,45,#4B0082,#4B0082,42
-South Dakota,SD,8,High,2,"February 16, 2025 - February 22, 2025",Limited Coverage,2025-02-22,SD,44.4443,-100.2263,Midwest,46,#FF1493,#FF1493,43
-Tennessee,TN,7,High,2,"February 16, 2025 - February 22, 2025",,2025-02-22,TN,35.858,-86.3505,South,47,#7B68EE,#7B68EE,44
-Texas,TX,7,High,30,"February 16, 2025 - February 22, 2025",,2025-02-22,TX,31.4757,-99.3312,South,48,#228B22,#228B22,45
-Utah,UT,5,Moderate,32,"February 16, 2025 - February 22, 2025",,2025-02-22,UT,39.3055,-111.6703,West,49,#D2691E,#D2691E,46
-Vermont,VT,5,Moderate,5,"February 16, 2025 - February 22, 2025",,2025-02-22,VT,44.0687,-72.6658,Northeast,50,#6495ED,#6495ED,47
-Virgin Islands,VI,,No Data,0,"February 16, 2025 - February 22, 2025",,2025-02-22,,,,,,,,48
-Virginia,VA,5,Moderate,32,"February 16, 2025 - February 22, 2025",,2025-02-22,VA,37.5215,-78.8537,South,51,#696969,#696969,49
-Washington,WA,5,Moderate,12,"February 16, 2025 - February 22, 2025",,2025-02-22,WA,47.3826,-120.4472,West,53,#8B4513,#8B4513,50
-West Virginia,WV,4,Low,1,"February 16, 2025 - February 22, 2025",,2025-02-22,WV,38.6409,-80.6227,South,54,#556B2F,#556B2F,51
-Wisconsin,WI,6,Moderate,40,"February 16, 2025 - February 22, 2025",,2025-02-22,WI,44.6243,-89.9941,Midwest,55,#20B2AA,#20B2AA,52
-Wyoming,WY,3,Low,5,"February 16, 2025 - February 22, 2025",,2025-02-22,WY,42.9957,-107.5512,West,56,#FFD700,#FFD700,53
+State,State_Abbreviation,activity_level,WVAL_Category,Number_of_Sites,Time_Period,Coverage,date,state_abbr,state_latitude,state_longitude,cdc_region,fips,cdc_region__colour,State__colour,id
+Alabama,AL,5,Moderate,18,"March 23, 2025 - March 29, 2025",,2025-03-29,AL,32.7794,-86.8287,South,1,#2A9D8F,#FF0000,1
+Alaska,AK,2,Very Low,3,"March 23, 2025 - March 29, 2025",,2025-03-29,AK,64.0685,-152.2782,West,2,#264653,#00FF00,2
+Arizona,AZ,3,Low,13,"March 23, 2025 - March 29, 2025",,2025-03-29,AZ,34.2744,-111.6602,West,4,#264653,#0000FF,3
+Arkansas,AR,8,High,8,"March 23, 2025 - March 29, 2025",,2025-03-29,AR,34.8938,-92.4426,South,5,#2A9D8F,#FFFF00,4
+California,CA,4,Low,60,"March 23, 2025 - March 29, 2025",,2025-03-29,CA,37.1841,-119.4696,West,6,#264653,#FF00FF,5
+Colorado,CO,5,Moderate,22,"March 23, 2025 - March 29, 2025",,2025-03-29,CO,38.9972,-105.5478,West,8,#264653,#00FFFF,6
+Connecticut,CT,8,High,12,"March 23, 2025 - March 29, 2025",,2025-03-29,CT,41.6219,-72.7273,Northeast,9,#F4A261,#800000,7
+Delaware,DE,3,Low,8,"March 23, 2025 - March 29, 2025",,2025-03-29,DE,38.9896,-75.505,Northeast,10,#F4A261,#008000,8
+District of Columbia,DC,7,High,1,"March 23, 2025 - March 29, 2025",,2025-03-29,DC,38.9101,-77.0147,South,11,#2A9D8F,#000080,9
+Florida,FL,4,Low,24,"March 23, 2025 - March 29, 2025",,2025-03-29,FL,28.6305,-82.449700000000007,South,12,#2A9D8F,#808000,10
+Georgia,GA,5,Moderate,17,"March 23, 2025 - March 29, 2025",,2025-03-29,GA,32.6415,-83.4426,South,13,#2A9D8F,#800080,11
+Guam,GU,2,Very Low,3,"March 23, 2025 - March 29, 2025",Limited Coverage,2025-03-29,,,,,,,,12
+Hawaii,HI,2,Very Low,9,"March 23, 2025 - March 29, 2025",,2025-03-29,HI,20.2927,-156.3737,West,15,#264653,#008080,13
+Idaho,ID,2,Very Low,5,"March 23, 2025 - March 29, 2025",,2025-03-29,ID,44.3509,-114.613,West,16,#264653,#FFA500,14
+Illinois,IL,5,Moderate,75,"March 23, 2025 - March 29, 2025",,2025-03-29,IL,40.0417,-89.1965,Midwest,17,#E63946,#A52A2A,15
+Indiana,IN,4,Low,28,"March 23, 2025 - March 29, 2025",,2025-03-29,IN,39.8942,-86.2816,Midwest,18,#E63946,#008B8B,16
+Iowa,IA,7,High,8,"March 23, 2025 - March 29, 2025",,2025-03-29,IA,42.0751,-93.496,Midwest,19,#E63946,#DC143C,17
+Kansas,KS,4,Low,13,"March 23, 2025 - March 29, 2025",,2025-03-29,KS,38.4937,-98.3804,Midwest,20,#E63946,#00CED1,18
+Kentucky,KY,7,High,18,"March 23, 2025 - March 29, 2025",,2025-03-29,KY,37.5347,-85.3021,South,21,#2A9D8F,#8B008B,19
+Louisiana,LA,7,High,8,"March 23, 2025 - March 29, 2025",,2025-03-29,LA,31.0689,-91.9968,South,22,#2A9D8F,#32CD32,20
+Maine,ME,2,Very Low,14,"March 23, 2025 - March 29, 2025",,2025-03-29,ME,45.3695,-69.2428,Northeast,23,#F4A261,#FFD700,21
+Maryland,MD,5,Moderate,11,"March 23, 2025 - March 29, 2025",,2025-03-29,MD,39.055,-76.7909,South,24,#2A9D8F,#40E0D0,22
+Massachusetts,MA,4,Low,5,"March 23, 2025 - March 29, 2025",,2025-03-29,MA,42.2596,-71.8083,Northeast,25,#F4A261,#9370DB,23
+Michigan,MI,3,Low,31,"March 23, 2025 - March 29, 2025",,2025-03-29,MI,44.3467,-85.4102,Midwest,26,#E63946,#2F4F4F,24
+Minnesota,MN,5,Moderate,28,"March 23, 2025 - March 29, 2025",,2025-03-29,MN,46.2807,-94.3053,Midwest,27,#E63946,#FA8072,25
+Mississippi,MS,5,Moderate,3,"March 23, 2025 - March 29, 2025",Limited Coverage,2025-03-29,MS,32.7364,-89.6678,South,28,#2A9D8F,#66CDAA,26
+Missouri,MO,3,Low,1,"March 23, 2025 - March 29, 2025",Limited Coverage,2025-03-29,MO,38.3566,-92.458,Midwest,29,#E63946,#FF6347,27
+Montana,MT,1,Very Low,7,"March 23, 2025 - March 29, 2025",,2025-03-29,MT,47.0527,-109.6333,West,30,#264653,#BA55D3,28
+Nebraska,NE,6,Moderate,16,"March 23, 2025 - March 29, 2025",,2025-03-29,NE,41.5378,-99.7951,Midwest,31,#E63946,#ADFF2F,29
+Nevada,NV,7,High,2,"March 23, 2025 - March 29, 2025",,2025-03-29,NV,39.3289,-116.6312,West,32,#264653,#7FFF00,30
+New Hampshire,NH,4,Low,14,"March 23, 2025 - March 29, 2025",,2025-03-29,NH,43.6805,-71.5811,Northeast,33,#F4A261,#FF4500,31
+New Jersey,NJ,7,High,22,"March 23, 2025 - March 29, 2025",,2025-03-29,NJ,40.1907,-74.6728,Northeast,34,#F4A261,#20B2AA,32
+New Mexico,NM,2,Very Low,7,"March 23, 2025 - March 29, 2025",,2025-03-29,NM,34.4071,-106.1126,West,35,#264653,#DDA0DD,33
+New York,NY,2,Very Low,88,"March 23, 2025 - March 29, 2025",,2025-03-29,NY,42.9538,-75.5268,Northeast,36,#F4A261,#B0C4DE,34
+North Carolina,NC,5,Moderate,30,"March 23, 2025 - March 29, 2025",,2025-03-29,NC,35.5557,-79.3877,South,37,#2A9D8F,#FF8C00,35
+North Dakota,ND,,No Data,0,"March 23, 2025 - March 29, 2025",,2025-03-29,ND,47.4501,-100.4659,Midwest,38,#E63946,#4682B4,36
+Ohio,OH,5,Moderate,71,"March 23, 2025 - March 29, 2025",,2025-03-29,OH,40.2862,-82.7937,Midwest,39,#E63946,#9400D3,37
+Oklahoma,OK,7,High,11,"March 23, 2025 - March 29, 2025",,2025-03-29,OK,35.5889,-97.4943,South,40,#2A9D8F,#00FA9A,38
+Oregon,OR,3,Low,28,"March 23, 2025 - March 29, 2025",,2025-03-29,OR,43.9336,-120.5583,West,41,#264653,#8A2BE2,39
+Pennsylvania,PA,3,Low,25,"March 23, 2025 - March 29, 2025",,2025-03-29,PA,40.8781,-77.7996,Northeast,42,#F4A261,#CD5C5C,40
+Rhode Island,RI,2,Very Low,10,"March 23, 2025 - March 29, 2025",,2025-03-29,RI,41.6762,-71.5562,Northeast,44,#F4A261,#48D1CC,41
+South Carolina,SC,7,High,19,"March 23, 2025 - March 29, 2025",,2025-03-29,SC,33.9169,-80.8964,South,45,#2A9D8F,#4B0082,42
+South Dakota,SD,5,Moderate,2,"March 23, 2025 - March 29, 2025",Limited Coverage,2025-03-29,SD,44.4443,-100.2263,Midwest,46,#E63946,#FF1493,43
+Tennessee,TN,7,High,2,"March 23, 2025 - March 29, 2025",,2025-03-29,TN,35.858,-86.3505,South,47,#2A9D8F,#7B68EE,44
+Texas,TX,5,Moderate,40,"March 23, 2025 - March 29, 2025",,2025-03-29,TX,31.4757,-99.3312,South,48,#2A9D8F,#228B22,45
+Utah,UT,2,Very Low,33,"March 23, 2025 - March 29, 2025",,2025-03-29,UT,39.3055,-111.6703,West,49,#264653,#D2691E,46
+Vermont,VT,5,Moderate,5,"March 23, 2025 - March 29, 2025",,2025-03-29,VT,44.0687,-72.6658,Northeast,50,#F4A261,#6495ED,47
+Virgin Islands,VI,,No Data,0,"March 23, 2025 - March 29, 2025",,2025-03-29,,,,,,,,48
+Virginia,VA,8,High,6,"March 23, 2025 - March 29, 2025",Limited Coverage,2025-03-29,VA,37.5215,-78.8537,South,51,#2A9D8F,#696969,49
+Washington,WA,4,Low,27,"March 23, 2025 - March 29, 2025",,2025-03-29,WA,47.3826,-120.4472,West,53,#264653,#8B4513,50
+West Virginia,WV,6,Moderate,17,"March 23, 2025 - March 29, 2025",,2025-03-29,WV,38.6409,-80.6227,South,54,#2A9D8F,#556B2F,51
+Wisconsin,WI,4,Low,40,"March 23, 2025 - March 29, 2025",,2025-03-29,WI,44.6243,-89.9941,Midwest,55,#E63946,#20B2AA,52
+Wyoming,WY,4,Low,4,"March 23, 2025 - March 29, 2025",,2025-03-29,WY,42.9957,-107.5512,West,56,#264653,#FFD700,53
