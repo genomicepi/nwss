@@ -41,10 +41,15 @@ state_trends <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDR
   select(date, "State/Territory", "State/Territory_WVAL") %>%
   rename(Region = "State/Territory", regional_levels = "State/Territory_WVAL")
 
+#Remove the JSON use and pull from the CSV as the JSON was not updated on the 2025-04-17 update
 state_levels <- jsonlite::fromJSON("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/NWSSStateMap.json")%>%
   mutate(date = max(regional_levels_long$date)) %>%
   mutate(activity_level = as.numeric(activity_level)) %>%
   rename(State = "State/Territory")
+
+#state_levels <- read_csv("https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateMapCSV.csv")%>%
+#  mutate(date = max(regional_levels_long$date)) %>%
+#   rename(State = "State/Territory")
 
 map_dataset <- left_join(state_levels, states_regions, by="State") %>%
   mutate(id = row_number())
